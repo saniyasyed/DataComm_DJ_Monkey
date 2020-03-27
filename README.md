@@ -1,5 +1,8 @@
 # DataComm_ClassProject_DJ
-This is a class project for data communications and networking. It is going to be an API to interact with Spotify and or iTunes that will act as the main DJ at a party, while anyone else connected on the same network can up vote, down vote, or add songs to the queue. The songs will be played in the order of most up voted first.
+This is a class project for data communications and networking. It is going to be an API to interact with 
+Spotify and or iTunes that will act as the main DJ at a party, while anyone else connected on the same 
+network can up vote, down vote, or add songs to the queue. The songs will be played in the order of 
+most up voted first.
 
 # Contributors 
 1. Stephen White
@@ -14,5 +17,18 @@ This is a class project for data communications and networking. It is going to b
 
 
 # Instructions on How to Run:
-1. Instructions for how to run  are in their respective folders.
+1. To just start the overall application:
+    1. Type the following command (without the quotes): "java DJ_Monkey_Starter"
+    1. Select whether the you are starting a server or a client.
+    1. Then follow on screen prompts 
+1. Instructions for how to run each individually are in their respective folders.
 1. Ensure that the server is running first.
+
+# How to get client ID and Authorization:
+1. Follow the Spotify guide here: https://developer.spotify.com/documentation/general/guides/app-settings/
+
+# External Libraries:
+1. This is the library we are using to interact with the Spotify API via java
+ (since spotify doesn't have a native java api):
+    1. https://github.com/thelinmichael/spotify-web-api-java
+
