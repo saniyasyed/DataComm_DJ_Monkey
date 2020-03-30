@@ -9,6 +9,8 @@ most up voted first.
 1. Joely Fontana
 1. Brinly Xaiver
 1. Arshia Sharma
+1. Finn White
+1. Saniya Syed
 
 # Important Notes:
 + This program was created using the JDK 13.0.2
