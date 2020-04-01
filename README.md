@@ -1,4 +1,4 @@
-# DataComm_ClassProject_DJ
+# DataComm_DJ_Monkey
 This is a class project for data communications and networking. It is going to be an API to interact with 
 Spotify and or iTunes that will act as the main DJ at a party, while anyone else connected on the same 
 network can up vote, down vote, or add songs to the queue. The songs will be played in the order of 
@@ -9,6 +9,8 @@ most up voted first.
 1. Joely Fontana
 1. Brinly Xaiver
 1. Arshia Sharma
+1. Finn White
+1. Saniya Syed
 
 # Important Notes:
 + This program was created using the JDK 13.0.2
