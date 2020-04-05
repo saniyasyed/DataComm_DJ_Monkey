@@ -7,6 +7,7 @@ public class DJ_Monkey_Starter {
     {
         System.out.println("Hello from DJ_Monkey_Starter!");
 
+
         //if the user input arguments, then use them here
         if(args.length <= 2)
         {
