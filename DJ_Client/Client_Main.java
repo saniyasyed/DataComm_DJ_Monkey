@@ -1,5 +1,6 @@
 package DJ_Client;
 
+import DataTypes.*;
 
 public class Client_Main
 {
