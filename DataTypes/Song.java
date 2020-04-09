@@ -1,16 +1,29 @@
 package DataTypes;
 
+import java.io.Serializable;
+
 /**
  * This class is intended to be the storage medium used to hold a song and all the info about it.
  */
-public class Song {
+public class Song implements Serializable {
 
     private String Title;
     private String Artist;
 
-    private int Upvotes;
-    private int Downvotes;
+    private int Upvotes = 0;
+    private int Downvotes = 0;
     private int QueuePos;
+
+    //default constructor. DONT USE.
+    public Song()
+    {
+        this.Artist = "Some Dude";
+        this.Title = "My Crap Song";
+        this.QueuePos = 0;
+
+        this.Upvotes = 0;
+        this.Downvotes = 0;
+    }
 
     //Constructor for a Song
     public Song(String Title, String Artist, int QueuePos)

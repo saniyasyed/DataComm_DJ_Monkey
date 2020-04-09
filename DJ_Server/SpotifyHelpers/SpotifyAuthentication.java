@@ -1,4 +1,4 @@
-package DJ_Server;
+package DJ_Server.SpotifyHelpers;
 
 
 //this class is intended to contain all of the spotify authentication abilities

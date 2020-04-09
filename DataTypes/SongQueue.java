@@ -1,8 +1,9 @@
 package DataTypes;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class SongQueue {
+public class SongQueue implements Serializable {
 
     private ArrayList<Song> MyList;
 
