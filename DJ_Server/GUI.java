@@ -38,9 +38,9 @@ public class GUI implements ActionListener {
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
         panel.setLayout(new FlowLayout());
         panel.add(space);
+        panel.add(label3);
         panel.add(button);
         panel.add(button1);
-        panel.add(label3);
         panel.add(space);
         panel.add(label);
         panel.add(label2);
